@@ -1,0 +1,26 @@
+{% extends "layout.html"%}
+{% block body%}
+	
+	
+	<h2 align="center">Here we add items.!</h2>
+	<h2 align="center">So,you do</h2>
+	<br>
+	<form action="/addi" method="post" align="center">
+		<input id="task" type="text" name="item" placeholder="task name">
+		<input id="submit" type="submit" name="">
+		
+	</form>
+	<script type="text/javascript">
+		document.querySelector('#task').onkeyup=function(){
+			if(document.querySelector('#task').value ===''){
+				document.querySelector('#submit').disabled=true;
+			}
+			else{
+				document.querySelector('#submit').disabled=false;
+			}
+		}
+	</script>
+
+
+
+{% endblock %}
