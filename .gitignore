@@ -1,11 +1,12 @@
 #Virtual Environment
 venv/
 
+# flask_session/
 # Flask
 instance/*
 !instance/.gitignore
 .webassets-cache
-
+flask_session/*
 # Flask.Python Stack
 # Byte-compiled / optimized / DLL files
 __pycache__/

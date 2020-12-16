@@ -1,0 +1,296 @@
+/*h4{	
+	color: red;
+	font-family: jokerman;
+}*/
+
+h3{
+	color: orange;
+
+}
+
+
+
+ 
+body{
+	font-family: 'Baloo Bhai', cursive;
+	margin: 0px;
+    padding: 0px;
+	/*background-color: #27306b;*/
+	border:60px solid #7d4e6f;
+	text-align: center;
+	border-top: 0px;
+	border-bottom: 0px;
+    background: url('../static/blion.jpg');
+}
+
+
+h1{
+	color: #7d236a;
+	/*font-family:jokerman ;*/
+	/*font-family: 'Rakkas', cursive;*/
+	   font-family: 'GeneraleStationRegular';
+
+
+}
+
+h4 li{
+	color: rgb(66 99 148 / 80%);
+	font-size: 25px;
+	font-family: "cambria";
+	/*font-weight: bold;*/
+
+}
+li a {
+	color: rgb(66 99 148 / 80%);
+	
+}
+
+.chandles{
+	/*background : black;*/
+	/*background: #736035;
+	border-color: green;
+	border-width: 10px;
+	border-style: inset;*/
+	/*background: #736035;*/
+    /*border-color: green;
+    border-width: 10px;
+    border-style: inset;*/
+    width: 30%;
+	text-align: center;
+	margin-left: 5%;
+	padding: 15px;
+    /*border-block-end-width: 20px;
+    border-block-start-width: 20px;
+    border-left-width: 20px;
+    border-right-width: 20px;*/
+    /*border-radius: 10px;
+    border-bottom-style: inset;*/
+	/*border-right: ;*/
+
+}
+
+.shandles{
+	/*background: #5457ba;
+	border-color: green;
+	border-width: 10px;
+	border-style: inset;*/
+	width: 30%;
+	text-align: center;
+	margin-left: 5%;
+	padding: 15px;
+	/*background: #5457ba;*/
+    /*border-color: green;
+    border-width: 10px;
+    border-style: inset;*/
+
+
+  /*  border-block-end-width: 30px;
+    border-block-start-width: 30px;
+    border-left-width: 50px;
+    border-right-width: 50px;*/
+   /* border-radius: 10px;
+    border-bottom-style: inset;*/
+}
+
+.adda{
+	border:5px solid black;
+	color:#b32217;
+	border-color: blue;
+	background: #6ea63a;
+	font-family: "cambria";
+	font-size: 30px;
+	padding: 10px;
+	margin-left: 45%;
+	border-radius: 20%;
+	border-style: inset;
+	/*border-color: gr;*/
+}
+
+/*
+h5{
+	font-size: 20px;
+	font-family: "century";
+	color: green;
+}
+*/
+/*
+h5 {
+   font-family: 'GeneraleStationRegular';
+   font-weight: normal;
+   font-style: normal;
+   color: green;
+   font-size: 20px;
+}
+
+.demo{
+	font-family: 'Mouse Memoirs', sans-serif;
+	color: orange;
+   font-size: 25px;
+}
+.demo2{
+	font-family: 'Rakkas', cursive;
+	font-size: 30px;
+	color: blue;
+
+}
+*/
+.tiles{
+	margin:auto;
+	/*height: 200px;
+	width: 300px;*/
+	/*border: 5px solid black;*/
+	padding: 50px;
+
+}
+
+td{
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	/*border:5px solid black;*/
+	border-style: groove;
+	text-align: center;
+	border: 85px solid #52664f;
+    padding: 140px;
+
+}
+
+
+#one{
+	background-color: #308a87;
+
+}
+#two{
+	background-color: #483085;
+}
+
+#three{
+	background-color: #2d522a;	
+}
+
+#four{
+	background-color:	#8a0a70;
+}
+
+#five{
+	background-color: #690d14;
+
+}
+
+
+.carousel {
+	border: 5px solid red;
+	border-style: groove; 	
+    margin: auto;
+    width: 60%;
+    position: relative;
+}
+
+.carousel-inner {
+    height: 350px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 350px;
+}
+
+
+#jack{
+	border:5px solid green;
+	width: 50%;
+	margin-left: 10%;
+	/*height: 40%*/
+}
+
+
+.js{
+	font-size: 30px;
+	font-family: "arial";
+	text-align: center;
+	/*background: pink;*/
+	/*width: 25%;
+	margin-left: 30%;*/
+}
+
+.right {
+    position: absolute;
+    right: 23px;
+    top: 7px;
+    display: inline-block;
+    /*border: 2px solid yellow;*/
+}
+ .mid {
+        display: block;
+        width: 58%;
+        top:7px;
+        margin: 1px auto;
+         /*border: 2px solid green; */
+    }
+
+.left{
+	 display: inline-block;
+         /*border: 2px solid red; */
+        position: absolute;
+        left: 0px;
+    	top: 7px;
+}
+
+.left img {
+        width: 129px;
+        /*filter: invert(100%);*/
+    }
+
+/*padding-left: 300px;*/
+.navbar-nav {
+        display: inline-block;
+        /*padding-left: 300px;*/
+    }
+
+    .navbar-nav li {
+        display: inline-block;
+        font-size: 21px;
+    }
+
+    .navbar-nav li a {
+    color: #756868;
+    text-decoration: none;
+    padding: 7px 11px;
+	}
+
+    .navbar-nav li a:hover,
+    .navbar-nav li a.active {
+        text-decoration: underline;
+        color: #8f1a22;
+    }
+
+
+
+.test-left{
+	     display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 83px;
+    top: 12px;
+
+}
+
+.test-left img {
+            width: 69px;
+    /* filter: invert(100%); */
+    
+}
+
+.todo{
+	/*margin:auto;*/
+	    margin-left: -5px;
+    padding: 34px 88px;
+    text-align: left;
+}
+
+
+
+

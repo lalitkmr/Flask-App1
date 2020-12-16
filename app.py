@@ -26,8 +26,10 @@ def index():
 	# return render_template("index.html",name="John",number=n)
 	if "A" not in session:
 		session["A"] = []
-		
-	return render_template("index.html",todo=session["A"])
+	
+	# return render_template("index.html",todo=session["A"])		return render_template("index.html",todo=session["A"])
+	return render_template("index.html")
+
 
 # A = []
 
@@ -46,6 +48,14 @@ def hello():
 def jvs():
 	return render_template("jv.html")
 
+@app.route("/test")
+def test():
+	return render_template("test.html")
+
+@app.route("/login")
+def login():
+	return render_template("login.html")
+
 @app.route("/sqldemo")
 def sqldemo():
 	rows = db.session.execute("SELECT * FROM regs")
@@ -54,11 +64,11 @@ def sqldemo():
 @app.route("/addi",methods=["GET","POST"])
 def addi():
 	if request.method == "GET":
-		return render_template("addi.html")
+		return render_template("addi.html",todo=session["A"])
 	else:
 		x = request.form.get("item")
 		session["A"].append(x)
-		return redirect("/")
+		return redirect("/addi")
 
 
 
