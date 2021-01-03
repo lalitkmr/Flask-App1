@@ -1,9 +1,0 @@
-{% extends "layout.html" %}
-{% body block%}
-	<h1>Table contents</h1>
-	<ul>
-		{% for i in rows %}
-			<li>{{ row["name"]}} ({{row["email"]}})</li>
-		{% endfor %}
-	</ul>
-{% endblock%}
