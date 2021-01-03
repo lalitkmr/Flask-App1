@@ -1,11 +1,12 @@
 #Virtual Environment
 venv/
-
+/cyberworld/demo.db
 # flask_session/
 # Flask
 instance/*
 !instance/.gitignore
 .webassets-cache
+.gitignore
 flask_session/*
 # Flask.Python Stack
 # Byte-compiled / optimized / DLL files
