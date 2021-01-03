@@ -1,0 +1,112 @@
+{% extends "layout.html" %}
+{% block body %}
+
+	Hello buddy here we practice javascrip...
+	<br><br><br>
+	<!-- <form>
+		<input type="text" name="">
+		<input type="submit" name="">
+	</form> -->
+	<script type="text/javascript">
+		function hell1(){
+			let name1 = document.querySelector('#name').value;
+			// alert("hello " + name1);
+			if(name1==="")
+				name1 = "john";
+			alert("hello " + name1);
+		}
+		function hell(){
+			let name = document.querySelector('#name2').value;
+			if(name==="")
+				name = "john";
+			// alert("hello " + name);
+			document.querySelector('#hell2').innerHTML= 'Hello,' + name + '!';
+			// for(i=1;i<10;i++)
+
+		}
+	</script>
+	<br>for alert
+	<form onsubmit="hell1(); return false;">
+		<input type="text" id='name' name="">
+		<input type="submit"  name="">
+		
+	</form>
+	<br><br><br>
+	for div
+	<form onsubmit="hell(); return false;">
+		<input type="text" id="name2">
+		<input type="submit" >
+	</form>
+	<div id="hell2">
+		hello 
+	</div>
+	<br><br>
+	<script type="text/javascript">
+		let c = 0;
+		function counter(){
+			
+			c++;
+			document.querySelector("#count").innerHTML=c;
+		}	
+
+	</script>
+
+	<h2>Counter</h2>
+	<br>
+
+	<form onsubmit="counter(); return false;">
+		<input type="submit" name="">
+	</form>
+	<br>
+	<div id = "count">
+		0
+	</div>
+	<br><br>
+	<button id="red">R</button>
+	<button id ="green">G</button>
+	<button id= "blue">B</button>
+
+	<script type="text/javascript">
+		
+			document.querySelector('#red').onclick = function () {
+				document.querySelector('body').style.backgroundColor='red';
+			}
+				// body...
+			document.querySelector('#green').onclick = function () {
+				document.querySelector('body').style.backgroundColor='green';
+			}
+			document.querySelector('#blue').onclick = function () {
+				document.querySelector('body').style.backgroundColor='blue';
+			}
+
+	</script>
+	<br><br><br>
+	<!-- <h2>Geolocator</h2>
+	<script type="text/javascript">
+		navigator.geolocation.getCurrentPosition(function(position){
+			let a = position.coords.latitude;
+			let b = position.coords.longitude;
+		}); 
+		document.querySelector('#geo').innerHTML=a;
+	</script>
+	<div id="geo">
+		here
+	</div>
+	hello -->
+	<!-- <script type="text/javascript">
+		function blink(){
+			let body = document.querySelector('body');
+			if(body.style.visiblity==='hidden')
+			{
+				body.style.visiblity = 'visible';
+			}
+			else
+			{
+				body.style.visibilty = 'hidden';
+			}
+
+		}
+		window.setInterval(blink,500);
+	</script> -->
+
+{% endblock %}
